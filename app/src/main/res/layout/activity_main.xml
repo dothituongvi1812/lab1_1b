@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="76dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_vertical"
+        android:layout_centerInParent="true"
+        android:src="@drawable/lock" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FORGET \nPASSWORD"
+        android:textAlignment="center"
+        android:textStyle="normal"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="700"
+        android:layout_marginTop="37dp"
+
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="Provide your account's email for which you \nwant to  reset your pasword"
+        android:textAlignment="center"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif"
+        android:textSize="15dp"
+        android:textFontWeight="700"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000"
+        android:layout_marginTop="32dp"/>
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+       android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:ems="10"
+        android:textFontWeight="400"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="5dp"
+        android:background="#D3D1D1"
+        android:paddingLeft="10dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="43dp"
+        android:backgroundTint="#E3C000"
+        android:text="NEXT"
+        android:textStyle="normal"
+        android:textFontWeight="700"
+        android:textSize="18dp"
+        android:textColor="#000"
+        />
+</LinearLayout>
